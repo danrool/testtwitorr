@@ -11,6 +11,16 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+
+    /* para ios */
+    /* Para que no haga refress */
+    overscroll-behavior-y: contain;
+    /* Evitar seleciones */
+    -webkit-user-select: none;
+    /* Evitar highlight */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+
 }
 
 /* Personalizados */
